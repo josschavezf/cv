@@ -54,7 +54,7 @@ knitr::include_graphics("joselyn.png")
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at [josschavezf.github.io/cv](josschavezf.github.io/cv/cv.pdf)")
+  cat("View this CV online with links at [josschavezf.github.io/cv](https://josschavezf.github.io/cv/cv.pdf)")
 } else {
   cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/josschavezf/cv/raw/master/cv.pdf)")
 }
