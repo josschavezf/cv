@@ -100,13 +100,6 @@ Joselyn C. Chávez-Fuentes {#title}
 CV %<>% print_text_block("intro") 
 ```
 
-Groups {data-icon=users}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('groups')
-```
-
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -116,14 +109,12 @@ CV %<>% print_section('education')
 ```
 
 
-
-Research Experience {data-icon=laptop}
+Groups {data-icon=users}
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('research_positions')
+CV %<>% print_section('groups')
 ```
-
 
 <!-- These breaks just force a new page so section doesnt get cut off -->
 <br>
@@ -137,22 +128,11 @@ Teaching Experience {data-icon=chalkboard-teacher}
 CV %<>% print_section('teaching_positions')
 ```
 
-
-
-Posts  {data-icon=newspaper}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('by_me_press')
-```
-
-R Packages  {data-icon=laptop}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('packages')
-```
-
+<!-- These breaks just force a new page so section doesnt get cut off -->
+<br>
+<br>
+<br>
+<br>
 
 Publications {data-icon=book}
 --------------------------------------------------------------------------------
@@ -166,6 +146,23 @@ CV %<>% print_text_block('academic_articles_aside')
 ```{r}
 CV %<>% print_section('academic_articles')
 ```
+
+
+R Packages  {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('packages')
+```
+
+
+Posts  {data-icon=newspaper}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('by_me_press')
+```
+
 
 Awards {data-icon=award}
 --------------------------------------------------------------------------------
@@ -181,6 +178,20 @@ Talks and Posters {data-icon=chalkboard-teacher}
 ```{r}
 CV %<>% print_section('talks')
 ```
+
+
+<!-- These breaks just force a new page so section doesnt get cut off -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ```{r}
 CV %<>% print_links()
