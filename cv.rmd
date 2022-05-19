@@ -1,6 +1,6 @@
 ---
 title: "Joselyn Chávez's CV"
-author: Joselyn Cristina Chávez Fuentes
+author: Joselyn Cristina Chávez-Fuentes
 date: "`r Sys.Date()`"
 params:
   pdf_mode:
@@ -45,7 +45,7 @@ if(params$pdf_mode) {
 Aside
 ================================================================================
 
-```{r,out.width='90%'}
+```{r,out.width='70%', fig.align='center'}
 # Build interactive network of positions colored by section
 # and connected if they occurred in the same year
 knitr::include_graphics("joselyn.png")
@@ -108,6 +108,12 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('education')
 ```
 
+Research positions {data-icon=flask}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('research_positions')
+```
 
 Groups {data-icon=users}
 --------------------------------------------------------------------------------
